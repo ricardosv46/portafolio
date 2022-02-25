@@ -362,7 +362,7 @@ img {
 
 .button-link {
   background: none;
-  color: var(--first-color);
+  color: var(--first-color-light);
   padding: 0;
 }
 
@@ -542,6 +542,7 @@ img {
   font-size: var(--h3-font-size);
   color: var(--first-color);
   margin: var(--mb-2) 0;
+  font-weight: 800;
 }
 
 .portfolio__content:hover {
@@ -798,4 +799,10 @@ img {
   .qualification__container {
     column-gap: 6rem;
   }
+}
+
+.flex {
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
 }

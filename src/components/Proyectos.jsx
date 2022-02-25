@@ -16,9 +16,14 @@ const Proyectos = () => {
             <div className='portfolio__data'>
               <span className='portfolio__subtitle'>{tecnologias}</span>
               <h2 className='portfolio__title'>{nombre}</h2>
-              <a target='_blank' href={git} className='button button-link'>
-                Ver github
-              </a>
+              <div className='flex'>
+                <a target='_blank' href={link} className='button button-link'>
+                  Ver pagina
+                </a>{" "}
+                <a target='_blank' href={git} className='button button-link'>
+                  Ver github
+                </a>
+              </div>
             </div>
           </div>
         ))}
