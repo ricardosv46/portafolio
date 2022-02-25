@@ -6,12 +6,13 @@
 /* ===== VARIABLES CSS ===== */
 :root {
   --header-height: 3rem;
-
+  /* 1A274D
+  121E42 */
   /* ===== Colors ===== */
-  --first-color: #3e0e12;
-  --first-color-dark: #2f0a0d;
-  --text-color: #524748;
-  --first-color-light: #7b6f71;
+  --first-color: #031b53;
+  --first-color-dark: #011034;
+  --text-color: #0b2f83;
+  --first-color-light: #113ca0;
   --first-color-lighten: #fbf9f9;
 
   /*===== Font and typography =====*/
@@ -155,6 +156,7 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   background-color: black;
+  background-image: url(https://i.imgur.com/LpQNmbO.jpg);
 }
 
 /* ===== NAV ===== */
@@ -226,6 +228,7 @@ img {
 .scroll-header {
   background-color: var(--first-color-lighten);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-image: none;
 }
 
 .scroll-header .nav__logo,
@@ -270,7 +273,7 @@ img {
 
 /*===== HOME =====*/
 .home {
-  background-color: #000;
+  background-image: url(https://i.imgur.com/LpQNmbO.jpg);
   overflow: hidden;
 }
 
