@@ -1,4 +1,5 @@
 import React from "react"
+import Pdf from "../assets/pdf/ricardo-cv-2022.pdf"
 
 const Hello = () => {
   return (
@@ -10,7 +11,7 @@ const Hello = () => {
           <span className='home__profession'>Web Developer</span>
           <a
             download=''
-            href='./src/assets/pdf/ricardo-cv-2022.pdf'
+            href={Pdf}
             className='button button-light home__button'
           >
             Download CV
