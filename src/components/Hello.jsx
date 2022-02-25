@@ -10,7 +10,7 @@ const Hello = () => {
           <span className='home__profession'>Web Developer</span>
           <a
             download=''
-            href='/src/assets/pdf/ricardo cv 2022.pdf'
+            href='./src/assets/pdf/ricardo-cv-2022.pdf'
             className='button button-light home__button'
           >
             Download CV
