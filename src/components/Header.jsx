@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react"
+import { motion } from "framer-motion"
 
 const Header = () => {
   const [scroll, setScroll] = useState("")
@@ -60,13 +61,35 @@ const Header = () => {
   return (
     <header className={`l-header ${scroll}`} id='header'>
       <nav className='nav bd-container'>
-        <a href='#' className='nav__logo'>
+        <motion.a
+          href='#'
+          className='nav__logo'
+          initial={{ y: 25, opacity: 0 }}
+          transition={{
+            duration: 0.5,
+          }}
+          animate={{
+            y: 0,
+            opacity: 1,
+          }}
+        >
           Ricardo Solis
-        </a>
+        </motion.a>
 
         <div className={`nav__menu ${classNav}`} id='nav-menu'>
           <ul className='nav__list'>
-            <li className='nav__item'>
+            <motion.li
+              className='nav__item'
+              initial={{ y: 25, opacity: 0 }}
+              transition={{
+                duration: 0.5,
+                delay: 0,
+              }}
+              animate={{
+                y: 0,
+                opacity: 1,
+              }}
+            >
               <a
                 href='#home'
                 className='nav__link active-link'
@@ -74,13 +97,35 @@ const Header = () => {
               >
                 Inicio
               </a>
-            </li>
-            <li className='nav__item'>
+            </motion.li>
+            <motion.li
+              className='nav__item'
+              initial={{ y: 25, opacity: 0 }}
+              transition={{
+                duration: 0.7,
+                delay: 0.2,
+              }}
+              animate={{
+                y: 0,
+                opacity: 1,
+              }}
+            >
               <a href='#about' className='nav__link' onClick={cerrarMenu}>
                 Sobre mi
               </a>
-            </li>
-            <li className='nav__item'>
+            </motion.li>
+            <motion.li
+              className='nav__item'
+              initial={{ y: 25, opacity: 0 }}
+              transition={{
+                duration: 0.9,
+                delay: 0.4,
+              }}
+              animate={{
+                y: 0,
+                opacity: 1,
+              }}
+            >
               <a
                 href='#conocimientos'
                 className='nav__link'
@@ -88,17 +133,40 @@ const Header = () => {
               >
                 Conocimientos
               </a>
-            </li>
-            <li className='nav__item'>
+            </motion.li>
+            <motion.li
+              className='nav__item'
+              initial={{ y: 25, opacity: 0 }}
+              transition={{
+                duration: 1.1,
+                delay: 0.6,
+              }}
+              animate={{
+                y: 0,
+                opacity: 1,
+              }}
+            >
               <a href='#portfolio' className='nav__link' onClick={cerrarMenu}>
                 Portafolio
               </a>
-            </li>
-            <li className='nav__item' onClick={cerrarMenu}>
+            </motion.li>
+            <motion.li
+              initial={{ y: 25, opacity: 0 }}
+              transition={{
+                duration: 1.3,
+                delay: 0.8,
+              }}
+              animate={{
+                y: 0,
+                opacity: 1,
+              }}
+              className='nav__item'
+              onClick={cerrarMenu}
+            >
               <a href='#contact' className='nav__link'>
                 Contactame
               </a>
-            </li>
+            </motion.li>
           </ul>
         </div>
 
