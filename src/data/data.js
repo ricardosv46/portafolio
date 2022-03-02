@@ -5,8 +5,23 @@ import Citas from "../assets/img/citas-react.png"
 import Crm from "../assets/img/crm-clientes.png"
 import Gastos from "../assets/img/planificador.png"
 import Criptos from "../assets/img/criptos.png"
+import Guitarla from "../assets/img/guitarla.png"
 
 export const data = [
+  {
+    foto: Guitarla,
+    nombre: "Guitar LA",
+    tecnologias: "Next Js, Css, Strapi, MongoDb",
+    link: "https://guitar-la.vercel.app/",
+    git: "https://github.com/Richxdd/guitarLA",
+  },
+  {
+    foto: ReactShop,
+    nombre: "Ecommerce React Shop",
+    tecnologias: "React Js, Css, Node Js, PostgreSQL",
+    link: "https://www.reactshop.xyz/",
+    git: "https://github.com/Richxdd/React-shop-netifly",
+  },
   {
     foto: Mern,
     nombre: "Merntask Proyectos",
@@ -20,13 +35,6 @@ export const data = [
     tecnologias: "React Js, TailwindCss",
     link: "https://landin-pages.netlify.app/",
     git: "https://github.com/Richxdd/landing-pages",
-  },
-  {
-    foto: ReactShop,
-    nombre: "Ecommerce React Shop",
-    tecnologias: "React Js, Css, Node Js, PostgreSQL",
-    link: "https://www.reactshop.xyz/",
-    git: "https://github.com/Richxdd/React-shop-netifly",
   },
   {
     foto: Citas,
