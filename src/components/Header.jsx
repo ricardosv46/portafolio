@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react"
-import { motion } from "framer-motion"
+import React, { useEffect, useState } from 'react'
+import { motion } from 'framer-motion'
 
 const Header = () => {
-  const [scroll, setScroll] = useState("")
+  const [scroll, setScroll] = useState('')
   const [nav, setNav] = useState(false)
   const [classNav, setClassNav] = useState(false)
 
@@ -12,51 +12,51 @@ const Header = () => {
 
   useEffect(() => {
     if (nav) {
-      setClassNav("show-menu")
+      setClassNav('show-menu')
     } else {
-      setClassNav("")
+      setClassNav('')
     }
   }, [nav])
 
   const handleClickMenu = () => {
     setNav(!nav)
     if (nav) {
-      setClassNav("show-menu")
+      setClassNav('show-menu')
     } else {
-      setClassNav("")
+      setClassNav('')
     }
   }
 
   const listenScrollEvent = (e) => {
     if (window.scrollY > 200) {
-      setScroll("scroll-header")
+      setScroll('scroll-header')
     } else {
-      setScroll("")
+      setScroll('')
     }
   }
   useEffect(() => {
-    window.addEventListener("scroll", listenScrollEvent)
+    window.addEventListener('scroll', listenScrollEvent)
   })
 
-  const sections = document.querySelectorAll("section[id]")
+  const sections = document.querySelectorAll('section[id]')
   const scrollActive = () => {
     const scrollY = window.pageYOffset
     sections.forEach((current) => {
       const sectionHeight = current.offsetHeight
       const sectionTop = current.offsetTop - 50
-      let sectionId = current.getAttribute("id")
+      let sectionId = current.getAttribute('id')
       if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
         document
-          .querySelector(".nav__menu a[href*=" + sectionId + "]")
-          .classList.add("active-link")
+          .querySelector('.nav__menu a[href*=' + sectionId + ']')
+          .classList.add('active-link')
       } else {
         document
-          .querySelector(".nav__menu a[href*=" + sectionId + "]")
-          .classList.remove("active-link")
+          .querySelector('.nav__menu a[href*=' + sectionId + ']')
+          .classList.remove('active-link')
       }
     })
   }
-  window.addEventListener("scroll", scrollActive)
+  window.addEventListener('scroll', scrollActive)
 
   return (
     <header className={`l-header ${scroll}`} id='header'>
@@ -66,11 +66,11 @@ const Header = () => {
           className='nav__logo'
           initial={{ y: 25, opacity: 0 }}
           transition={{
-            duration: 0.5,
+            duration: 0.5
           }}
           animate={{
             y: 0,
-            opacity: 1,
+            opacity: 1
           }}
         >
           Ricardo Solis
@@ -83,11 +83,11 @@ const Header = () => {
               initial={{ y: 25, opacity: 0 }}
               transition={{
                 duration: 0.5,
-                delay: 0,
+                delay: 0
               }}
               animate={{
                 y: 0,
-                opacity: 1,
+                opacity: 1
               }}
             >
               <a
@@ -103,11 +103,11 @@ const Header = () => {
               initial={{ y: 25, opacity: 0 }}
               transition={{
                 duration: 0.7,
-                delay: 0.2,
+                delay: 0.2
               }}
               animate={{
                 y: 0,
-                opacity: 1,
+                opacity: 1
               }}
             >
               <a href='#about' className='nav__link' onClick={cerrarMenu}>
@@ -119,11 +119,11 @@ const Header = () => {
               initial={{ y: 25, opacity: 0 }}
               transition={{
                 duration: 0.9,
-                delay: 0.4,
+                delay: 0.4
               }}
               animate={{
                 y: 0,
-                opacity: 1,
+                opacity: 1
               }}
             >
               <a
@@ -139,11 +139,11 @@ const Header = () => {
               initial={{ y: 25, opacity: 0 }}
               transition={{
                 duration: 1.1,
-                delay: 0.6,
+                delay: 0.6
               }}
               animate={{
                 y: 0,
-                opacity: 1,
+                opacity: 1
               }}
             >
               <a href='#portfolio' className='nav__link' onClick={cerrarMenu}>
@@ -154,11 +154,11 @@ const Header = () => {
               initial={{ y: 25, opacity: 0 }}
               transition={{
                 duration: 1.3,
-                delay: 0.8,
+                delay: 0.8
               }}
               animate={{
                 y: 0,
-                opacity: 1,
+                opacity: 1
               }}
               className='nav__item'
               onClick={cerrarMenu}
