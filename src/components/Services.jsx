@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 
 const Services = () => {
   return (
@@ -11,7 +11,8 @@ const Services = () => {
           <h3 className='services__title'>Diseño Web</h3>
           <p className='services__description'>
             Maquetado CSS moderno y responsivo con flexbox, css grid, media
-            querys. Experiencia en frameworks de estilos como Bootstrap.
+            querys. Experiencia en frameworks de estilos como Bootstrap o
+            Tailwind CSS.
             <br />
             Uso del preprocesador <b>SASS</b> con variables, mixings, etc.
           </p>
@@ -27,9 +28,9 @@ const Services = () => {
         </div>
         <div className='services__data'>
           <i className='bx bxl-react services__icon'></i>
-          <h3 className='services__title'>Font-end React</h3>
+          <h3 className='services__title'>Font-End React</h3>
           <p className='services__description'>
-            Frontend con React <b>Hooks</b>, uso de <b>Context API</b> o{" "}
+            Frontend con React <b>Hooks</b>, uso de <b>Context API</b> o{' '}
             <b>Redux</b> para el manejo del estado global de la APP.
             <br />
             Fech, Axios para comunicarse con los servidores. Estilos con CSS

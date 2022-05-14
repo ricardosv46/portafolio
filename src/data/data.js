@@ -11,6 +11,7 @@ import Heroes from '../assets/img/heroes-app.png'
 import Urby from '../assets/img/urby.png'
 import Enlace from '../assets/img/enlace-web.png'
 import DashEnlace from '../assets/img/dashboard-enlace.png'
+import Quiosco from '../assets/img/quiosco.png'
 export const data = [
   {
     foto: Guitarla,
@@ -22,11 +23,30 @@ export const data = [
     equipo: false
   },
   {
-    foto: ReactShop,
-    nombre: 'Ecommerce React Shop',
-    tecnologias: 'React Js, Css, Node Js, PostgreSQL',
-    link: 'https://www.reactshop.xyz/',
-    git: 'https://github.com/Richxdd/React-shop-netifly',
+    foto: Quiosco,
+    nombre: 'Quiosco App',
+    tecnologias: 'Next Js, Typescript, Redux toolkit, Prisma, Mysql',
+    link: 'https://quiosco.vercel.app/',
+    git: 'https://github.com/Richxdd/Quiosco',
+    tipo: 'Personal',
+    equipo: false
+  },
+  // {
+  //   foto: ReactShop,
+  //   nombre: 'Ecommerce React Shop',
+  //   tecnologias: 'React Js, Css, Node Js, PostgreSQL',
+  //   link: 'https://www.reactshop.xyz/',
+  //   git: 'https://github.com/Richxdd/React-shop-netifly',
+  //   tipo: 'Personal',
+  //   equipo: false
+  // },
+
+  {
+    foto: ReactShopNext,
+    nombre: 'Ecommerce React Shop Next Js',
+    tecnologias: 'Next Js, Sass, Axios, Next-Auth, Node js, PostgreSQL',
+    link: 'https://reactshop-next.vercel.app/',
+    git: 'https://github.com/Richxdd/reactshop-next',
     tipo: 'Personal',
     equipo: false
   },
@@ -57,15 +77,7 @@ export const data = [
     tipo: 'Cliente',
     equipo: true
   },
-  {
-    foto: ReactShopNext,
-    nombre: 'Ecommerce React Shop Next Js',
-    tecnologias: 'Next Js, Sass, Axios, Next-Auth, Node js, PostgreSQL',
-    link: 'https://reactshop-next.vercel.app/',
-    git: 'https://github.com/Richxdd/reactshop-next',
-    tipo: 'Personal',
-    equipo: false
-  },
+
   {
     foto: Urby,
     nombre: 'Urby web',
