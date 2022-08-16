@@ -1,6 +1,7 @@
 import Mern from '../assets/img/mern.png'
 import Landing from '../assets/img/landing-page.png'
-import ReactShop from '../assets/img/react-shop.png'
+import Garden from '../assets/img/garden.png'
+import Esperanza from '../assets/img/esperanza.png'
 import ReactShopNext from '../assets/img/reactshop-next.png'
 import Citas from '../assets/img/citas-react.png'
 import Crm from '../assets/img/crm-clientes.png'
@@ -23,6 +24,25 @@ export const data = [
     equipo: false
   },
   {
+    foto: Garden,
+    nombre: 'Garden Chic web',
+    tecnologias: 'Next Js, TailwindCss, Typescript',
+    link: 'https://garden-chic-web.vercel.app/',
+    git: '',
+    tipo: 'Cliente',
+    equipo: true
+  },
+
+  {
+    foto: Esperanza,
+    nombre: 'La Esperanza',
+    tecnologias: 'Next Js, TailwindCss, Typescript',
+    link: 'https://la-esperanza-eventos.vercel.app/',
+    git: '',
+    tipo: 'Cliente',
+    equipo: true
+  },
+  {
     foto: Quiosco,
     nombre: 'Quiosco App',
     tecnologias: 'Next Js, Typescript, Redux toolkit, Prisma, Mysql',
@@ -31,16 +51,6 @@ export const data = [
     tipo: 'Personal',
     equipo: false
   },
-  // {
-  //   foto: ReactShop,
-  //   nombre: 'Ecommerce React Shop',
-  //   tecnologias: 'React Js, Css, Node Js, PostgreSQL',
-  //   link: 'https://www.reactshop.xyz/',
-  //   git: 'https://github.com/Richxdd/React-shop-netifly',
-  //   tipo: 'Personal',
-  //   equipo: false
-  // },
-
   {
     foto: ReactShopNext,
     nombre: 'Ecommerce React Shop Next Js',
