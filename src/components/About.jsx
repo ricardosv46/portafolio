@@ -9,7 +9,7 @@ const About = () => {
 
       <div className='about__container bd-grid'>
         <p className='about__description'>
-          Desarrollador Front-End y entuasiasta de la tecnología. Soy una
+          Desarrollador Front-End y entusiasta de la tecnología. Soy una
           persona que ve el aprendizaje como algo continuo, por lo que siempre
           estoy aprendiendo nuevas tecnologías. <br />
           Mi objetivo profesional es crear soluciones tecnológicas que ofrezcan
