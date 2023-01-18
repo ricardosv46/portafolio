@@ -19,7 +19,7 @@ const Footer = () => {
 
           <a
             target='_blank'
-            href='https://www.linkedin.com/in/ricardo-manuel-solis-vizurraga-317221220/'
+            href='https://www.linkedin.com/in/ricardosv46//'
             className='footer__link'
           >
             <i className='bx bxl-linkedin'></i>
@@ -27,7 +27,7 @@ const Footer = () => {
 
           <a
             target='_blank'
-            href='https://github.com/Richxdd'
+            href='https://github.com/ricardosv46'
             className='footer__link'
           >
             <i className='bx bxl-github'></i>
