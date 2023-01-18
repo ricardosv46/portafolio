@@ -14,15 +14,15 @@ import Enlace from '../assets/img/enlace-web.png'
 import DashEnlace from '../assets/img/dashboard-enlace.png'
 import Quiosco from '../assets/img/quiosco.png'
 export const data = [
-  {
-    foto: Guitarla,
-    nombre: 'Guitar LA',
-    tecnologias: 'Next Js, Css, Strapi, MongoDb',
-    link: 'https://guitar-la.vercel.app/',
-    git: 'https://github.com/Richxdd/guitarLA',
-    tipo: 'Personal',
-    equipo: false
-  },
+  // {
+  //   foto: Guitarla,
+  //   nombre: 'Guitar LA',
+  //   tecnologias: 'Next Js, Css, Strapi, MongoDb',
+  //   link: 'https://guitar-la.vercel.app/',
+  //   git: 'https://github.com/Richxdd/guitarLA',
+  //   tipo: 'Personal',
+  //   equipo: false
+  // },
   {
     foto: Garden,
     nombre: 'Garden Chic web',
