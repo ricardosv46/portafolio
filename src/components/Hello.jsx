@@ -1,5 +1,5 @@
 import React from "react"
-import Pdf from "../assets/pdf/cv.pdf"
+import Pdf from "../assets/pdf/cv-ricardo.pdf"
 import { motion } from "framer-motion"
 
 const Hello = () => {
