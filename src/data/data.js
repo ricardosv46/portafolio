@@ -14,20 +14,20 @@ import Enlace from '../assets/img/enlace-web.png'
 import DashEnlace from '../assets/img/dashboard-enlace.png'
 import Quiosco from '../assets/img/quiosco.png'
 export const data = [
-  // {
-  //   foto: Guitarla,
-  //   nombre: 'Guitar LA',
-  //   tecnologias: 'Next Js, Css, Strapi, MongoDb',
-  //   link: 'https://guitar-la.vercel.app/',
-  //   git: 'https://github.com/Richxdd/guitarLA',
-  //   tipo: 'Personal',
-  //   equipo: false
-  // },
+  {
+    foto: Guitarla,
+    nombre: 'Guitar LA',
+    tecnologias: 'Next Js, Css, Strapi, MongoDb',
+    link: 'https://guitar-la.vercel.app/',
+    git: 'https://github.com/Richxdd/guitarLA',
+    tipo: 'Personal',
+    equipo: false
+  },
   {
     foto: Garden,
     nombre: 'Garden Chic web',
     tecnologias: 'Next Js, TailwindCss, Typescript',
-    link: 'https://garden-chic-web.vercel.app/',
+    link: 'https://gardenchicperu.com/',
     git: '',
     tipo: 'Cliente',
     equipo: true
@@ -37,7 +37,7 @@ export const data = [
     foto: Esperanza,
     nombre: 'La Esperanza',
     tecnologias: 'Next Js, TailwindCss, Typescript',
-    link: 'https://la-esperanza-eventos.vercel.app/',
+    link: 'https://laesperanza.plazaticket.com/',
     git: '',
     tipo: 'Cliente',
     equipo: true
@@ -73,20 +73,20 @@ export const data = [
     foto: Enlace,
     nombre: 'Enlace Mundial Web',
     tecnologias: 'Next Js, Bootstrap, ContextApi, GraphQl, Formik',
-    link: 'https://enlace-mundial-peru.vercel.app/',
+    link: 'https://enlacemundialperu.com/',
     git: '',
     tipo: 'Cliente',
     equipo: true
   },
-  {
-    foto: DashEnlace,
-    nombre: 'Dashboard Enlace Mundial ',
-    tecnologias: 'React Js, TailwindCss, React Router v5, ContextApi, GraphQl',
-    link: 'https://enlace-mundial-peru.vercel.app/',
-    git: '',
-    tipo: 'Cliente',
-    equipo: true
-  },
+  // {
+  //   foto: DashEnlace,
+  //   nombre: 'Dashboard Enlace Mundial ',
+  //   tecnologias: 'React Js, TailwindCss, React Router v5, ContextApi, GraphQl',
+  //   link: 'https://enlace-mundial-peru.vercel.app/',
+  //   git: '',
+  //   tipo: 'Cliente',
+  //   equipo: true
+  // },
 
   {
     foto: Urby,
