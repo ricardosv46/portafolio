@@ -27,16 +27,46 @@ const Services = () => {
           </p>
         </div>
         <div className='services__data'>
+          <i className='bx bxl-typescript services__icon'></i>
+          <h3 className='services__title'>Typescript</h3>
+          <p className='services__description'>
+            Utilizo <b>TypeScript</b> para aprovechar características modernas 
+            y tipos estáticos. Defino interfaces y types para una estructura 
+            clara y escalable. Async/Await, Arrow Functions y promesas me 
+            permiten código legible y eficiente
+          </p>
+        </div>
+
+        <div className='services__data'>
           <i className='bx bxl-react services__icon'></i>
-          <h3 className='services__title'>Font-End React</h3>
+          <h3 className='services__title'>React Js</h3>
           <p className='services__description'>
             Frontend con React <b>Hooks</b>, uso de <b>Context API</b> o{' '}
             <b>Redux</b> para el manejo del estado global de la APP.
             <br />
             Fech, Axios para comunicarse con los servidores. Estilos con CSS
-            moderno, autenticación con jwt.
+            moderno, autenticación con <b>JWT</b>.
           </p>
         </div>
+        <div className='services__data'>
+        <i class="bx devicon-nextjs-original services__icon"></i>
+          <h3 className='services__title'>Next Js</h3>
+          <p className='services__description'>
+          En proyectos con <b>Next.js</b>, utilizo <b>Next Auth</b> para autenticación,  
+          <b> SSR</b> para carga rápida, optimización de imágenes y rutas 
+          preconfiguradas. Desarrollo aplicaciones full-stack con Next.js
+          </p>
+        </div>
+        <div className='services__data'>
+        <i class="bx bxl-nodejs services__icon"></i>
+          <h3 className='services__title'>Node Js</h3>
+          <p className='services__description'>
+          Utilizo <b>Node</b> con <b>Express</b> para desarrollar un backend escalable. 
+          Además, empleo <b>Mongoose</b> o <b>TypeORM</b> para crear modelos e 
+          interactuar con bases de datos de <b>MongoDB</b>
+          </p>
+        </div>
+       
       </div>
     </section>
   )

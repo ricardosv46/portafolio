@@ -8,18 +8,57 @@ import Crm from '../assets/img/crm-clientes.png'
 import Gastos from '../assets/img/planificador.png'
 import Criptos from '../assets/img/criptos.png'
 import Guitarla from '../assets/img/guitarla.png'
+import TesloShop from '../assets/img/teslo-shop.png'
+import LaRepublica from '../assets/img/la-republica.png'
+import Libero from '../assets/img/libero.png'
+import Wapa from '../assets/img/libero.png'
 import Heroes from '../assets/img/heroes-app.png'
 import Urby from '../assets/img/urby.png'
 import Enlace from '../assets/img/enlace-web.png'
-import DashEnlace from '../assets/img/dashboard-enlace.png'
 import Quiosco from '../assets/img/quiosco.png'
 export const data = [
+  {
+    foto: TesloShop,
+    nombre: 'Teslo Shop',
+    tecnologias: 'Next Js, Material UI, Next Auth,Node Js, Express, MongoDb',
+    link: 'https://teslo-shop-rho.vercel.app/',
+    git: 'https://github.com/ricardosv46/teslo-shop',
+    tipo: 'Personal',
+    equipo: false
+  },
+  {
+    foto: LaRepublica,
+    nombre: 'La República',
+    tecnologias: 'Next Js, Javascript, Sass,Node Js, Graphql, Apollo',
+    link: 'https://larepublica.pe/',
+    git: '',
+    tipo: 'Cliente',
+    equipo: true
+  },
+  {
+    foto: Libero,
+    nombre: 'Líbero',
+    tecnologias: 'Next Js, Javascript, Sass,Node Js, Graphql, Apollo',
+    link: 'https://libero.pe/',
+    git: '',
+    tipo: 'Cliente',
+    equipo: true
+  },
+  {
+    foto: Wapa,
+    nombre: 'Wapa',
+    tecnologias: 'Next Js, Javascript, Sass,Node Js, Graphql, Apollo',
+    link: 'https://wapa.pe/',
+    git: '',
+    tipo: 'Cliente',
+    equipo: true
+  },
   {
     foto: Guitarla,
     nombre: 'Guitar LA',
     tecnologias: 'Next Js, Css, Strapi, MongoDb',
     link: 'https://guitar-la.vercel.app/',
-    git: 'https://github.com/Richxdd/guitarLA',
+    git: 'https://github.com/ricardosv46/guitarLA',
     tipo: 'Personal',
     equipo: false
   },
@@ -47,7 +86,7 @@ export const data = [
     nombre: 'Quiosco App',
     tecnologias: 'Next Js, Typescript, Redux toolkit, Prisma, Mysql',
     link: 'https://quiosco.vercel.app/',
-    git: 'https://github.com/Richxdd/Quiosco',
+    git: 'https://github.com/ricardosv46/Quiosco',
     tipo: 'Personal',
     equipo: false
   },
@@ -56,7 +95,7 @@ export const data = [
     nombre: 'Ecommerce React Shop Next Js',
     tecnologias: 'Next Js, Sass, Axios, Next-Auth, Node js, PostgreSQL',
     link: 'https://reactshop-next.vercel.app/',
-    git: 'https://github.com/Richxdd/reactshop-next',
+    git: 'https://github.com/ricardosv46/reactshop-next',
     tipo: 'Personal',
     equipo: false
   },
@@ -65,7 +104,7 @@ export const data = [
     nombre: 'Merntask Proyectos',
     tecnologias: 'React Js, Css, Node Js, MongoDb, Rest Api',
     link: 'https://mern-proyect.netlify.app/',
-    git: 'https://github.com/Richxdd/MERNstack-proyectos',
+    git: 'https://github.com/ricardosv46/MERNstack-proyectos',
     tipo: 'Personal',
     equipo: false
   },
@@ -102,7 +141,7 @@ export const data = [
     nombre: 'Landing Page Guide',
     tecnologias: 'React Js, TailwindCss',
     link: 'https://landin-pages.netlify.app/',
-    git: 'https://github.com/Richxdd/landing-pages',
+    git: 'https://github.com/ricardosv46/landing-pages',
     tipo: 'Personal',
     equipo: false
   },
@@ -111,7 +150,7 @@ export const data = [
     nombre: 'Citas React Crud ',
     tecnologias: 'React Js, TailwindCss, LocalStorage',
     link: 'https://citas-react-g.netlify.app/',
-    git: 'https://github.com/Richxdd/citas_react_vite',
+    git: 'https://github.com/ricardosv46/citas_react_vite',
     tipo: 'Personal',
     equipo: false
   },
@@ -120,7 +159,7 @@ export const data = [
     nombre: 'CRM - Clientes Crud',
     tecnologias: 'React Js,React Router v6, TailwindCss ',
     link: 'https://crm-cli.netlify.app/clientes',
-    git: 'https://github.com/Richxdd/Crm-Cliente-Api',
+    git: 'https://github.com/ricardosv46/Crm-Cliente-Api',
     tipo: 'Personal',
     equipo: false
   },
@@ -129,7 +168,7 @@ export const data = [
     nombre: 'Heroes App',
     tecnologias: 'React Js, Bootstrap 5, Context Api',
     link: 'https://heroes-apps.netlify.app/',
-    git: 'https://github.com/Richxdd/heroes-app',
+    git: 'https://github.com/ricardosv46/heroes-app',
     tipo: 'Personal',
     equipo: false
   },
@@ -138,7 +177,7 @@ export const data = [
     nombre: 'Planificador de Gastos Crud',
     tecnologias: 'React Js, Css, LocalStorage ',
     link: 'https://plan-gastos.netlify.app/',
-    git: 'https://github.com/Richxdd/planificador-gastos',
+    git: 'https://github.com/ricardosv46/planificador-gastos',
     tipo: 'Personal',
     equipo: false
   },
@@ -147,7 +186,7 @@ export const data = [
     nombre: 'Cotizador De Criptomonedas',
     tecnologias: 'React Js, Styled Components',
     link: 'https://cotizador-criptos.netlify.app/',
-    git: 'https://github.com/Richxdd/criptos-react',
+    git: 'https://github.com/ricardosv46/criptos-react',
     tipo: 'Personal',
     equipo: false
   }

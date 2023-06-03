@@ -34,6 +34,21 @@ const Qualification = () => {
           </div>
         </div>
       </div>
+      <div className='qualification__container bd-grid'>
+        <div className='qualification__data'>
+          <h3 className='qualification__area'>Inglés</h3>
+          <div className='qualification__box'>
+            <span className='qualification__work'>
+              <i className='bx bx-briefcase-alt qualification__icon'></i>  Icpna
+            </span>
+            <span className='qualification__work'>
+              <i className='bx bx-calendar-alt qualification__icon'></i> Febrero
+              2023 - En curso
+            </span>
+          </div>
+        </div>
+
+      </div>
     </section>
   )
 }
