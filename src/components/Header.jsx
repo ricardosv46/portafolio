@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
+import Logo from '../icons/Logo'
 
 const Header = () => {
   const [scroll, setScroll] = useState('')
@@ -73,7 +74,7 @@ const Header = () => {
             opacity: 1
           }}
         >
-          Ricardo Solis
+         <Logo/>
         </motion.a>
 
         <div className={`nav__menu ${classNav}`} id='nav-menu'>

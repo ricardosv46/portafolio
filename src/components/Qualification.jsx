@@ -5,7 +5,7 @@ const Qualification = () => {
     <section className='qualification section bd-container'>
       <h2 className='section-title'>Educación</h2>
 
-      <div className='qualification__container bd-grid'>
+      <div className='qualification__container grid-services'>
         <div className='qualification__data'>
           <h3 className='qualification__area'>Desarrollo de software</h3>
           <div className='qualification__box'>
@@ -33,8 +33,7 @@ const Qualification = () => {
             </span>
           </div>
         </div>
-      </div>
-      <div className='qualification__container bd-grid'>
+        
         <div className='qualification__data'>
           <h3 className='qualification__area'>Inglés</h3>
           <div className='qualification__box'>
@@ -47,7 +46,6 @@ const Qualification = () => {
             </span>
           </div>
         </div>
-
       </div>
     </section>
   )

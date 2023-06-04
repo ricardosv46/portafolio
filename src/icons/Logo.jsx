@@ -1,9 +1,14 @@
-<svg
+
+import * as React from "react"
+
+const Logo = (props) => (
+  <svg
     width="51"
     height="36"
     viewBox="0 0 84 59"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    {...props}
   >
     <mask id="path-1-inside-1_101_13" fill="white">
       <path d="M2 5C2 2.23858 4.23858 0 7 0H77C79.7614 0 82 2.23858 82 5V48H2V5Z" />
@@ -12,7 +17,7 @@
       d="M2 5C2 2.23858 4.23858 0 7 0H77C79.7614 0 82 2.23858 82 5V48H2V5Z"
       fill="white"
       stroke="#031b53"
-      strokeWidth="16"
+      strokeWidth={16}
       mask="url(#path-1-inside-1_101_13)"
     />
     <mask id="path-2-inside-2_101_13" fill="white">
@@ -22,14 +27,14 @@
       d="M0 48C0 47.4477 0.447715 47 1 47H83C83.5523 47 84 47.4477 84 48V53C84 56.3137 81.3137 59 78 59H6C2.68629 59 0 56.3137 0 53V48Z"
       fill="white"
       stroke="#031b53"
-      strokeWidth="4"
+      strokeWidth={4}
       mask="url(#path-2-inside-2_101_13)"
     />
     <path
       d="M29 49H55V49C55 51.2091 53.2091 53 51 53H33C30.7909 53 29 51.2091 29 49V49Z"
       fill="#031b53"
     />
-    <circle cx="41" cy="24" r="14" fill="#031b53" />
+    <circle cx={41} cy={24} r={14} fill="#031b53" />
     <path
       d="M32.2102 23.9318V23.25L37.6989 20.4545V21.5455L33.4886 23.5739L33.5227 23.5057V23.6761L33.4886 23.608L37.6989 25.6364V26.7273L32.2102 23.9318ZM42.9158 17.8636L40.1033 28.3125H39.1829L41.9954 17.8636H42.9158ZM49.8864 23.9318L44.3977 26.7273V25.6364L48.608 23.608L48.5739 23.6761V23.5057L48.608 23.5739L44.3977 21.5455V20.4545L49.8864 23.25V23.9318Z"
       fill="white"
@@ -43,3 +48,7 @@
       fill="white"
     />
   </svg>
+)
+
+export default Logo
+

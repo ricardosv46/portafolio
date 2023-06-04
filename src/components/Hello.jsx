@@ -1,5 +1,5 @@
 import React from "react"
-import Pdf from "../assets/pdf/cv-ricardo.pdf"
+import Pdf from "../assets/pdf/cv-ricardo-2023.pdf"
 import { motion } from "framer-motion"
 
 const Hello = () => {
@@ -58,7 +58,7 @@ const Hello = () => {
               opacity: 1,
             }}
           >
-            Web Developer
+            Full Stack Developer
           </motion.span>
           <motion.a
             initial={{ y: 25, opacity: 0 }}

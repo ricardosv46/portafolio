@@ -4,7 +4,6 @@ import Garden from '../assets/img/garden.png'
 import Esperanza from '../assets/img/esperanza.png'
 import ReactShopNext from '../assets/img/reactshop-next.png'
 import Citas from '../assets/img/citas-react.png'
-import Crm from '../assets/img/crm-clientes.png'
 import Gastos from '../assets/img/planificador.png'
 import Criptos from '../assets/img/criptos.png'
 import Guitarla from '../assets/img/guitarla.png'
@@ -16,6 +15,8 @@ import Heroes from '../assets/img/heroes-app.png'
 import Urby from '../assets/img/urby.png'
 import Enlace from '../assets/img/enlace-web.png'
 import Quiosco from '../assets/img/quiosco.png'
+import UpTask from '../assets/img/uptask.png'
+
 export const data = [
   {
     foto: TesloShop,
@@ -32,7 +33,7 @@ export const data = [
     tecnologias: 'Next Js, Javascript, Sass,Node Js, Graphql, Apollo',
     link: 'https://larepublica.pe/',
     git: '',
-    tipo: 'Cliente',
+    tipo: 'Trabajo',
     equipo: true
   },
   {
@@ -41,7 +42,7 @@ export const data = [
     tecnologias: 'Next Js, Javascript, Sass,Node Js, Graphql, Apollo',
     link: 'https://libero.pe/',
     git: '',
-    tipo: 'Cliente',
+    tipo: 'Trabajo',
     equipo: true
   },
   {
@@ -50,25 +51,28 @@ export const data = [
     tecnologias: 'Next Js, Javascript, Sass,Node Js, Graphql, Apollo',
     link: 'https://wapa.pe/',
     git: '',
-    tipo: 'Cliente',
+    tipo: 'Trabajo',
     equipo: true
   },
-  {
-    foto: Guitarla,
-    nombre: 'Guitar LA',
-    tecnologias: 'Next Js, Css, Strapi, MongoDb',
-    link: 'https://guitar-la.vercel.app/',
-    git: 'https://github.com/ricardosv46/guitarLA',
-    tipo: 'Personal',
-    equipo: false
-  },
+
+  // crear bakend para guitar la backend desde 0 con cloudinary
+  // {
+  //   foto: Guitarla,
+  //   nombre: 'Guitar LA',
+  //   tecnologias: 'Next Js, Css, Strapi, MongoDb',
+  //   link: 'https://guitar-la.vercel.app/',
+  //   git: 'https://github.com/ricardosv46/guitarLA',
+  //   tipo: 'Personal',
+  //   equipo: false
+  // },
   {
     foto: Garden,
     nombre: 'Garden Chic web',
     tecnologias: 'Next Js, TailwindCss, Typescript',
-    link: 'https://gardenchicperu.com/',
+    link: 'https://garden-chic-web-beige.vercel.app/',
+    // link: 'https://gardenchicperu.com/',
     git: '',
-    tipo: 'Cliente',
+    tipo: 'Trabajo',
     equipo: true
   },
 
@@ -78,7 +82,7 @@ export const data = [
     tecnologias: 'Next Js, TailwindCss, Typescript',
     link: 'https://laesperanza.plazaticket.com/',
     git: '',
-    tipo: 'Cliente',
+    tipo: 'Trabajo',
     equipo: true
   },
   {
@@ -92,7 +96,7 @@ export const data = [
   },
   {
     foto: ReactShopNext,
-    nombre: 'Ecommerce React Shop Next Js',
+    nombre: 'React Shop',
     tecnologias: 'Next Js, Sass, Axios, Next-Auth, Node js, PostgreSQL',
     link: 'https://reactshop-next.vercel.app/',
     git: 'https://github.com/ricardosv46/reactshop-next',
@@ -101,10 +105,19 @@ export const data = [
   },
   {
     foto: Mern,
-    nombre: 'Merntask Proyectos',
+    nombre: 'Mern Task',
     tecnologias: 'React Js, Css, Node Js, MongoDb, Rest Api',
-    link: 'https://mern-proyect.netlify.app/',
+    link: 'https://mern-stack-proyectos.vercel.app/',
     git: 'https://github.com/ricardosv46/MERNstack-proyectos',
+    tipo: 'Personal',
+    equipo: false
+  },
+  {
+    foto: UpTask,
+    nombre: 'Up Task',
+    tecnologias: 'React Js, Css, Node Js, MongoDb, Rest Api',
+    link: 'https://uptask-front.netlify.app/proyects',
+    git: 'https://github.com/ricardosv46/uptask-front',
     tipo: 'Personal',
     equipo: false
   },
@@ -114,7 +127,7 @@ export const data = [
     tecnologias: 'Next Js, Bootstrap, ContextApi, GraphQl, Formik',
     link: 'https://enlacemundialperu.com/',
     git: '',
-    tipo: 'Cliente',
+    tipo: 'Trabajo',
     equipo: true
   },
   // {
@@ -123,7 +136,7 @@ export const data = [
   //   tecnologias: 'React Js, TailwindCss, React Router v5, ContextApi, GraphQl',
   //   link: 'https://enlace-mundial-peru.vercel.app/',
   //   git: '',
-  //   tipo: 'Cliente',
+  //   tipo: 'Trabajo',
   //   equipo: true
   // },
 
@@ -131,63 +144,63 @@ export const data = [
     foto: Urby,
     nombre: 'Urby web',
     tecnologias: 'Maquetación con Next Js y TailwindCss',
-    link: 'https://urby-web.vercel.app/',
+    link: 'https://urby-web-fork.vercel.app/',
     git: '',
-    tipo: 'Cliente',
+    tipo: 'Trabajo',
     equipo: false
   },
-  {
-    foto: Landing,
-    nombre: 'Landing Page Guide',
-    tecnologias: 'React Js, TailwindCss',
-    link: 'https://landin-pages.netlify.app/',
-    git: 'https://github.com/ricardosv46/landing-pages',
-    tipo: 'Personal',
-    equipo: false
-  },
-  {
-    foto: Citas,
-    nombre: 'Citas React Crud ',
-    tecnologias: 'React Js, TailwindCss, LocalStorage',
-    link: 'https://citas-react-g.netlify.app/',
-    git: 'https://github.com/ricardosv46/citas_react_vite',
-    tipo: 'Personal',
-    equipo: false
-  },
-  {
-    foto: Crm,
-    nombre: 'CRM - Clientes Crud',
-    tecnologias: 'React Js,React Router v6, TailwindCss ',
-    link: 'https://crm-cli.netlify.app/clientes',
-    git: 'https://github.com/ricardosv46/Crm-Cliente-Api',
-    tipo: 'Personal',
-    equipo: false
-  },
-  {
-    foto: Heroes,
-    nombre: 'Heroes App',
-    tecnologias: 'React Js, Bootstrap 5, Context Api',
-    link: 'https://heroes-apps.netlify.app/',
-    git: 'https://github.com/ricardosv46/heroes-app',
-    tipo: 'Personal',
-    equipo: false
-  },
-  {
-    foto: Gastos,
-    nombre: 'Planificador de Gastos Crud',
-    tecnologias: 'React Js, Css, LocalStorage ',
-    link: 'https://plan-gastos.netlify.app/',
-    git: 'https://github.com/ricardosv46/planificador-gastos',
-    tipo: 'Personal',
-    equipo: false
-  },
-  {
-    foto: Criptos,
-    nombre: 'Cotizador De Criptomonedas',
-    tecnologias: 'React Js, Styled Components',
-    link: 'https://cotizador-criptos.netlify.app/',
-    git: 'https://github.com/ricardosv46/criptos-react',
-    tipo: 'Personal',
-    equipo: false
-  }
+  // {
+  //   foto: Landing,
+  //   nombre: 'Landing Page Guide',
+  //   tecnologias: 'React Js, TailwindCss',
+  //   link: 'https://landin-pages.netlify.app/',
+  //   git: 'https://github.com/ricardosv46/landing-pages',
+  //   tipo: 'Personal',
+  //   equipo: false
+  // },
+  // {
+  //   foto: Citas,
+  //   nombre: 'Citas React Crud ',
+  //   tecnologias: 'React Js, TailwindCss, LocalStorage',
+  //   link: 'https://citas-react-g.netlify.app/',
+  //   git: 'https://github.com/ricardosv46/citas_react_vite',
+  //   tipo: 'Personal',
+  //   equipo: false
+  // },
+  // {
+  //   foto: Crm,
+  //   nombre: 'CRM - Trabajos Crud',
+  //   tecnologias: 'React Js,React Router v6, TailwindCss ',
+  //   link: 'https://crm-cli.netlify.app/Trabajos',
+  //   git: 'https://github.com/ricardosv46/Crm-Trabajo-Api',
+  //   tipo: 'Personal',
+  //   equipo: false
+  // },
+  // {
+  //   foto: Heroes,
+  //   nombre: 'Heroes App',
+  //   tecnologias: 'React Js, Bootstrap 5, Context Api',
+  //   link: 'https://heroes-apps.netlify.app/',
+  //   git: 'https://github.com/ricardosv46/heroes-app',
+  //   tipo: 'Personal',
+  //   equipo: false
+  // },
+  // {
+  //   foto: Gastos,
+  //   nombre: 'Planificador de Gastos Crud',
+  //   tecnologias: 'React Js, Css, LocalStorage ',
+  //   link: 'https://plan-gastos.netlify.app/',
+  //   git: 'https://github.com/ricardosv46/planificador-gastos',
+  //   tipo: 'Personal',
+  //   equipo: false
+  // },
+  // {
+  //   foto: Criptos,
+  //   nombre: 'Cotizador De Criptomonedas',
+  //   tecnologias: 'React Js, Styled Components',
+  //   link: 'https://cotizador-criptos.netlify.app/',
+  //   git: 'https://github.com/ricardosv46/criptos-react',
+  //   tipo: 'Personal',
+  //   equipo: false
+  // }
 ]

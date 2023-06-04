@@ -58,7 +58,7 @@ const Services = () => {
           </p>
         </div>
         <div className='services__data'>
-        <i class="bx bxl-nodejs services__icon"></i>
+        <i className="bx bxl-nodejs services__icon"></i>
           <h3 className='services__title'>Node Js</h3>
           <p className='services__description'>
           Utilizo <b>Node</b> con <b>Express</b> para desarrollar un backend escalable. 
