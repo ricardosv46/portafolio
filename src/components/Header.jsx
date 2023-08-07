@@ -64,7 +64,7 @@ const Header = () => {
       <nav className='nav bd-container'>
         <motion.a
           href='#'
-          className='nav__logo'
+          className='nav__logo logo'
           initial={{ y: 25, opacity: 0 }}
           transition={{
             duration: 0.5

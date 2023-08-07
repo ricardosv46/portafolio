@@ -5,7 +5,7 @@ const About = () => {
     <section className='about section bd-container' id='about'>
       <span className='section-subtitle'>Sobre mi</span>
 
-      <h2 className='section-title'>Ricardo Manuel Solis Vizurraga</h2>
+      <h2 className='section-title'>Ricardo Solis</h2>
 
       <div className='about__container bd-grid'>
         <p className='about__description'>

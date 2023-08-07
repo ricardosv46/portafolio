@@ -836,6 +836,19 @@ img {
   .grid-services{
     grid-template-columns: repeat(2,1fr);
   }
+ 
 }
 
+@media screen and (min-width: 576px) {
+  .logo svg{
+    width: 51px !important;
+    height: 36px !important;
+  }
+}
+
+.logo svg{
+  margin-top: 5px;
+  width: 30px ;
+  height: 20px ;
+}
 

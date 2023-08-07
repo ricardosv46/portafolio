@@ -58,7 +58,7 @@ const Hello = () => {
               opacity: 1,
             }}
           >
-            Full Stack Developer
+            Web Developer
           </motion.span>
           <motion.a
             initial={{ y: 25, opacity: 0 }}
