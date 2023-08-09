@@ -10,12 +10,44 @@ import Guitarla from '../assets/img/guitarla.png'
 import TesloShop from '../assets/img/teslo-shop.png'
 import LaRepublica from '../assets/img/la-republica.png'
 import Libero from '../assets/img/libero.png'
-import Wapa from '../assets/img/libero.png'
+import Wapa from '../assets/img/wapa.png'
 import Heroes from '../assets/img/heroes-app.png'
 import Urby from '../assets/img/urby.png'
 import Enlace from '../assets/img/enlace-web.png'
 import Quiosco from '../assets/img/quiosco.png'
 import UpTask from '../assets/img/uptask.png'
+
+import {
+  SiAmp,
+  SiAxios,
+  SiBootstrap,
+  SiCss3,
+  SiExpress,
+  SiFramer,
+  SiGoogletagmanager,
+  SiGraphql,
+  SiHeadlessui,
+  SiHtml5,
+  SiJavascript,
+  SiJsonwebtokens,
+  SiMongodb,
+  SiMongoose,
+  SiMui,
+  SiMysql,
+  SiNextdotjs,
+  SiNodedotjs,
+  SiPaypal,
+  SiPostgresql,
+  SiPrisma,
+  SiReact,
+  SiRedux,
+  SiSass,
+  SiSocketdotio,
+  SiStrapi,
+  SiSwiper,
+  SiTailwindcss,
+  SiTypescript,
+} from "react-icons/si";
 
 export const data = [
   {
@@ -25,7 +57,22 @@ export const data = [
     link: 'https://teslo-shop-rho.vercel.app/',
     git: 'https://github.com/ricardosv46/teslo-shop',
     tipo: 'Personal',
-    equipo: false
+    equipo: false,
+    tecnologys: [
+      <SiHtml5 size={25}/>,
+      <SiTailwindcss size={25} />,
+      <SiTypescript size={25} />,
+      <SiNextdotjs size={25} />,
+      <SiReact size={25} />,
+      <SiFramer size={25} />,
+      <SiJsonwebtokens size={25}/>,
+      <SiMongodb size={25}/>,
+      <SiMongoose  size={25} />,
+      <SiMui size={25}/>,
+      <SiPaypal size={25}/>,
+      <SiNodedotjs size={25}/>,
+      <SiAxios size={25}/>,
+    ],
   },
   {
     foto: LaRepublica,
@@ -34,7 +81,18 @@ export const data = [
     link: 'https://larepublica.pe/',
     git: '',
     tipo: 'Trabajo',
-    equipo: true
+    equipo: true,
+    tecnologys: [
+      <SiHtml5 size={25}/>,
+      <SiSass size={25}/>,
+      <SiJavascript size={25} />,
+      <SiNextdotjs size={25} />,
+      <SiReact size={25} />,
+      <SiNodedotjs size={25}/>,
+      <SiGraphql size={25}/>,
+      <SiAmp size={25}/>,
+      <SiGoogletagmanager size={25}/>,
+    ],
   },
   {
     foto: Libero,
@@ -43,7 +101,18 @@ export const data = [
     link: 'https://libero.pe/',
     git: '',
     tipo: 'Trabajo',
-    equipo: true
+    equipo: true,
+    tecnologys: [
+      <SiHtml5 size={25}/>,
+      <SiSass size={25}/>,
+      <SiJavascript size={25} />,
+      <SiNextdotjs size={25} />,
+      <SiReact size={25} />,
+      <SiNodedotjs size={25}/>,
+      <SiGraphql size={25}/>,
+      <SiAmp size={25}/>,
+      <SiGoogletagmanager size={25}/>,
+    ],
   },
   {
     foto: Wapa,
@@ -52,7 +121,18 @@ export const data = [
     link: 'https://wapa.pe/',
     git: '',
     tipo: 'Trabajo',
-    equipo: true
+    equipo: true,
+    tecnologys: [
+      <SiHtml5 size={25}/>,
+      <SiSass size={25}/>,
+      <SiJavascript size={25} />,
+      <SiNextdotjs size={25} />,
+      <SiReact size={25} />,
+      <SiNodedotjs size={25}/>,
+      <SiGraphql size={25}/>,
+      <SiAmp size={25}/>,
+      <SiGoogletagmanager size={25}/>,
+    ],
   },
 
   // crear bakend para guitar la backend desde 0 con cloudinary
@@ -69,11 +149,21 @@ export const data = [
     foto: Garden,
     nombre: 'Garden Chic web',
     tecnologias: 'Next Js, TailwindCss, Typescript',
-    link: 'https://garden-chic-web-beige.vercel.app/',
-    // link: 'https://gardenchicperu.com/',
+    link: 'https://gardenchicperu.com/',
     git: '',
     tipo: 'Trabajo',
-    equipo: true
+    equipo: true,
+    tecnologys: [
+      <SiHtml5 size={25}/>,
+      <SiTailwindcss size={25} />,
+      <SiNextdotjs size={25} />,
+      <SiReact size={25} />,
+      <SiTypescript size={25} />,
+      <SiFramer size={25} />,
+      <SiSwiper size={25} />,
+      <SiRedux size={25} />,
+      <SiGraphql size={25} />,
+    ],
   },
 
   {
@@ -83,7 +173,18 @@ export const data = [
     link: 'https://laesperanza.plazaticket.com/',
     git: '',
     tipo: 'Trabajo',
-    equipo: true
+    equipo: true,
+    tecnologys: [
+      <SiHtml5 size={25}/>,
+      <SiTailwindcss size={25} />,
+      <SiNextdotjs size={25} />,
+      <SiReact size={25} />,
+      <SiTypescript size={25} />,
+      <SiFramer size={25} />,
+      <SiSwiper size={25} />,
+      <SiRedux size={25} />,
+      <SiGraphql size={25} />,
+    ],
   },
   {
     foto: Quiosco,
@@ -92,7 +193,18 @@ export const data = [
     link: 'https://quiosco.vercel.app/',
     git: 'https://github.com/ricardosv46/Quiosco',
     tipo: 'Personal',
-    equipo: false
+    equipo: false,
+    tecnologys: [
+      <SiHtml5 size={25}/>,
+      <SiTailwindcss size={25} />,
+      <SiNextdotjs size={25} />,
+      <SiReact size={25} />,
+      <SiTypescript size={25} />,
+      <SiRedux size={25} />,
+      <SiPrisma size={25} />,
+      <SiMysql size={25} />,
+      <SiGraphql size={25} />,
+    ],
   },
   {
     foto: ReactShopNext,
@@ -101,7 +213,18 @@ export const data = [
     link: 'https://reactshop-next.vercel.app/',
     git: 'https://github.com/ricardosv46/reactshop-next',
     tipo: 'Personal',
-    equipo: false
+    equipo: false,
+    tecnologys: [
+      <SiHtml5 size={25}/>,
+      <SiSass size={25} />,
+      <SiNextdotjs size={25} />,
+      <SiReact size={25} />,
+      <SiJavascript size={25} />,
+      <SiNodedotjs size={25} />,
+      <SiExpress size={25} />,
+      <SiJsonwebtokens size={25} />,
+      <SiPostgresql size={25} />,
+    ],
   },
   {
     foto: Mern,
@@ -110,7 +233,19 @@ export const data = [
     link: 'https://mern-stack-proyectos.vercel.app/',
     git: 'https://github.com/ricardosv46/MERNstack-proyectos',
     tipo: 'Personal',
-    equipo: false
+    equipo: false,
+    tecnologys: [
+      <SiHtml5 size={25}/>,
+      <SiCss3 size={25} />,
+      <SiReact size={25} />,
+      <SiJavascript size={25} />,
+      <SiNodedotjs size={25} />,
+      <SiMongodb size={25} />,
+      <SiMongoose  size={25} />,
+      <SiExpress size={25} />,
+      <SiJsonwebtokens size={25} />,
+      <SiAxios size={25} />,
+    ],
   },
   {
     foto: UpTask,
@@ -119,7 +254,19 @@ export const data = [
     link: 'https://uptask-front.netlify.app/proyects',
     git: 'https://github.com/ricardosv46/uptask-front',
     tipo: 'Personal',
-    equipo: false
+    equipo: false,
+    tecnologys: [
+      <SiHtml5 size={25}/>,
+      <SiTailwindcss size={25} />,
+      <SiReact size={25} />,
+      <SiTypescript size={25} />,
+      <SiNodedotjs size={25} />,
+      <SiMongodb size={25} />,
+      <SiMongoose  size={25} />,
+      <SiExpress size={25} />,
+      <SiJsonwebtokens size={25} />,
+      <SiSocketdotio size={25} />,
+    ],
   },
   {
     foto: Enlace,
@@ -128,7 +275,19 @@ export const data = [
     link: 'https://enlacemundialperu.com/',
     git: '',
     tipo: 'Trabajo',
-    equipo: true
+    equipo: true,
+    tecnologys: [
+      <SiHtml5 size={25}/>,
+      <SiBootstrap size={25} />,
+      <SiJavascript size={25} />,
+      <SiNextdotjs size={25} />,
+      <SiReact size={25} />,
+      <SiGraphql  size={25} />,
+      <SiJsonwebtokens size={25} />,
+      <SiSwiper size={25} />,
+     
+
+    ],
   },
   // {
   //   foto: DashEnlace,
@@ -147,7 +306,15 @@ export const data = [
     link: 'https://urby-web-fork.vercel.app/',
     git: '',
     tipo: 'Trabajo',
-    equipo: false
+    equipo: false,
+    tecnologys: [
+      <SiHtml5 size={25}/>,
+      <SiTailwindcss size={25} />,
+      <SiJavascript size={25} />,
+      <SiNextdotjs size={25} />,
+      <SiReact size={25} />,
+      <SiHeadlessui size={25} />,
+    ],
   },
   // {
   //   foto: Landing,

@@ -558,6 +558,15 @@ img {
   color: var(--first-color-light);
 }
 
+
+.portfolio__icons {
+  font-size: var(--small-font-size);
+  color: var(--first-color-light);
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
 .portfolio__title {
   font-size: var(--h3-font-size);
   color: var(--first-color);
@@ -852,3 +861,8 @@ img {
   height: 20px ;
 }
 
+.items-center {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}

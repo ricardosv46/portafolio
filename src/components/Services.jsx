@@ -49,7 +49,7 @@ const Services = () => {
           </p>
         </div>
         <div className='services__data'>
-        <i class="bx devicon-nextjs-original services__icon"></i>
+        <i className="bx devicon-nextjs-original services__icon"></i>
           <h3 className='services__title'>Next Js</h3>
           <p className='services__description'>
           En proyectos con <b>Next.js</b>, utilizo <b>Next Auth</b> para autenticación,  
