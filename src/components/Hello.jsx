@@ -70,7 +70,7 @@ const Hello = () => {
               y: 0,
               opacity: 1,
             }}
-            download=''
+            download="cv ricardo.pdf"
             href={Pdf}
             className='button button-light home__button'
           >
