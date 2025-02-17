@@ -26,7 +26,7 @@ const About = () => {
           <br /> */}
           {/* Si necesitas ayuda en el desarrollo de una aplicación web o móvil completa, desde el frontend hasta el backend, ¡no dudes en
           contactarme!  */}
-          Desarrollador web con 2 años de experiencia en la creación de soluciones de T.I. Me he desempeñado en proyectos de software
+          Desarrollador web con 3 años de experiencia en la creación de soluciones de T.I. Me he desempeñado en proyectos de software
           especializado en tecnologías web, abarcando tanto el desarrollo frontend como el backend, para diversos sectores como
           telecomunicaciones, tecnología, seguros, público, entre otros. <br />
           <br />
